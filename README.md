@@ -2,7 +2,7 @@
 ======
 
 EN:
-- The complexity of algorithms can be determined in several ways, depending on the specific characteristics of the algorithm and the problem it is solving.
+The complexity of algorithms can be determined in several ways, depending on the specific characteristics of the algorithm and the problem it is solving.
 ------
 
 1. Time Complexity: Time complexity refers to the amount of time required to solve a problem as the size of the input data increases. Algorithms with higher time complexity are generally considered more challenging to solve than those with lower time complexity.
