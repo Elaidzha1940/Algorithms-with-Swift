@@ -64,11 +64,11 @@ Examples: Genetic Algorithms, Gradient Descent.
 📢 Additional Concepts
 ------
 
-1. Linked lists are data structures consisting of nodes, where each node points to the next, enabling efficient insertion and deletion of elements.
-2. An algorithm for finding an element in a sorted array in logarithmic time, making it ideal for large datasets.
-3. Queues and stacks are data structures that manage the order of element processing. Queues operate on a FIFO basis, while stacks follow the LIFO principle.
-4. An optimization technique for solving problems in arrays and strings, using two pointers to speed up search and processing.
-5. Algorithms that make the best choice at each step, aiming to reach a global optimum.
+1. Linked Lists - Linked lists are data structures consisting of nodes, where each node points to the next, enabling efficient insertion and deletion of elements.
+2. Binary Search - An algorithm for finding an element in a sorted array in logarithmic time, making it ideal for large datasets.
+3. Queue/Stack - Queues and stacks are data structures that manage the order of element processing. Queues operate on a FIFO basis, while stacks follow the LIFO principle.
+4. Two Pointers - An optimization technique for solving problems in arrays and strings, using two pointers to speed up search and processing.
+5. Greedy Problems - Algorithms that make the best choice at each step, aiming to reach a global optimum.
 
 
 🌐 RU:
