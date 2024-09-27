@@ -25,6 +25,30 @@ efficiently an algorithm can be optimized when working with large amounts of dat
 
 ------
 
+Types of Algorithms
+------
+
+1. Сортировка / Sorting
+2. Поиск / Searching
+3. Графы и деревья / Graphs and Trees
+4. Жадные алгоритмы / Greedy Algorithms
+5. Динамическое программирование / Dynamic Programming
+6. Разделяй и властвуй / Divide and Conquer
+7. Обратный отсчёт / Backtracking
+8. Алгоритмы оптимизации / Optimization Algorithms
+
+------
+
+Swift
+------
+1. Sliding Window
+2. Heap
+3. HashMap / Hash Table
+4. Dynamic Programming
+5. BFS/DFS
+
+------
+
 RU:
 - Сложность алгоритмов может определяться несколькими способами, в зависимости от конкретных характеристик алгоритма и задачи, которую он решает.
 
