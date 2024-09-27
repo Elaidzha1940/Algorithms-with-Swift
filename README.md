@@ -54,15 +54,16 @@ Examples: Genetic Algorithms, Gradient Descent.
 
 ------
 
-Swift
+Swift / Core Concepts:
 ------
-1. Sliding Window
-2. Heap
-3. HashMap / Hash Table
-4. Dynamic Programming
-5. BFS/DFS
+1. Sliding Window: A technique for solving problems involving subarrays or substrings, such as finding the maximum sum or the length of the longest unique substring.
+2. Heap: A data structure for efficiently managing elements with priorities, commonly used in priority queues and shortest path algorithms.
+3. HashMap/Hash Table: Provides fast data retrieval by key, ideal for lookup and matching problems.
+4. Dynamic Programming: Solves problems by breaking them into subproblems and using their solutions to optimize the final outcome.
+5. Graph Traversals (BFS/DFS): Algorithms for searching and traversing graphs and trees, used in pathfinding and connectivity checking.
+------
 
-------
+======
 
 RU:
 - Сложность алгоритмов может определяться несколькими способами, в зависимости от конкретных характеристик алгоритма и задачи, которую он решает.
@@ -117,6 +118,14 @@ Big O используется для сравнения и анализа ра�
 
 ------
 
+Основные концепции:
+------
+
+Скользящее окно (Sliding Window): техника для решения задач с подмассивами или подстроками, таких как нахождение максимальной суммы или длины уникальной подстроки.
+Куча (Heap): структура данных для эффективного управления элементами с приоритетами, использующаяся в очередях с приоритетом и алгоритмах поиска кратчайшего пути.
+Хэш-таблицы (HashMap/Hash Table): обеспечивают быстрый доступ к данным по ключу, идеальны для задач поиска и сопоставления.
+Динамическое программирование (Dynamic Programming): решает задачи путем разбиения их на подзадачи и использования их решений для оптимизации.
+Обходы графов (BFS/DFS): алгоритмы для поиска и обхода графов и деревьев, используемые в задачах поиска путей и проверке связности.
 
 
 
