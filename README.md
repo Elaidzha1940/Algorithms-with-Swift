@@ -24,6 +24,7 @@ efficiently an algorithm can be optimized when working with large amounts of dat
 
 ------
 
+RU:
 - Сложность алгоритмов может определяться несколькими способами, в зависимости от конкретных характеристик алгоритма и задачи, которую он решает.
 
 ------
