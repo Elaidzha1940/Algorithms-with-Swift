@@ -1,6 +1,25 @@
 ⌨️ Algorithms with Swift.
 ======
 
+The complexity of algorithms can be determined in several ways, depending on the specific characteristics of the algorithm and the problem it is solving.
+Time Complexity: Time complexity refers to the amount of time required to solve a problem as the size of the input data increases. Algorithms with higher time complexity are generally considered more challenging to solve than those with lower time complexity.
+------
+
+Space Complexity: Space complexity refers to the amount of memory required to solve a problem as the size of the input data increases. Algorithms with higher space complexity may be more difficult to implement or optimize than those with lower space complexity.
+
+Application Domain: The complexity of an algorithm can also depend on the domain for which it is designed. Some problems may have inherent complexity that cannot be reduced through algorithmic optimizations.
+
+Input Characteristics: The characteristics of the input data can also affect the complexity of the algorithm. Some algorithms may be more difficult to implement or optimize for specific types of input data, such as large numbers, sparse data, or data with many repeated patterns.
+
+Implementation Details: The implementation details of an algorithm, such as the choice of data structures or programming language, can also impact its complexity.
+------
+
+Big O is a mathematical notation used to describe the time complexity of an algorithm, specifically how quickly an algorithm runs as the size of the input data increases.
+It indicates the asymptotic upper bound of the algorithm's running time and allows us to understand how quickly the running time of an algorithm will grow as the size of the input data increases.
+Big O is usually expressed in the form O(f(n)), where f(n) is a function that describes the number of operations the algorithm performs when processing n elements of input data. For example, if an algorithm has a time complexity of O(n), it means that the running time of the algorithm is proportional to the size of the input data.
+Big O is used to compare and analyze different algorithms and helps in choosing the most optimal algorithm for solving a particular problem. It also allows us to evaluate how efficiently an algorithm can be optimized when working with large amounts of data.
+------
+
 Сложность алгоритмов может определяться несколькими способами, в зависимости от конкретных характеристик алгоритма и задачи, которую он решает.
 ------
 
