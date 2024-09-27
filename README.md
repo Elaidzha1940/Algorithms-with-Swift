@@ -28,28 +28,28 @@ efficiently an algorithm can be optimized when working with large amounts of dat
 ☕️ Types of Algorithms
 ------
 
-1. Sorting
+1. `Sorting`
 - Examples: Bubble Sort, Quick Sort, Merge Sort.
 
-2. Searching
+2. `Searching`
 - Examples: Linear Search, Binary Search.
 
-3. Graphs and Trees
+3. `Graphs and Trees`
 - Examples: Breadth-First Search (BFS), Depth-First Search (DFS), Dijkstra's Algorithm.
 
-4. Greedy Algorithms
+4. `Greedy Algorithms`
 - Examples: Kruskal's Algorithm, Prim's Algorithm.
 
-5. Dynamic Programming
+5. `Dynamic Programming`
 - Examples: Knapsack Problem, Floyd-Warshall Algorithm.
   
-7. Divide and Conquer
+7. `Divide and Conquer`
 - Examples: Knapsack Problem, Floyd-Warshall Algorithm.
 
-7. Backtracking
+7. `Backtracking`
 - Examples: Quick Sort, Merge Sort.
 
-8. Optimization Algorithms
+8. `Optimization Algorithms`
 Examples: Genetic Algorithms, Gradient Descent.
 
 ------
