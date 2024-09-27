@@ -1,7 +1,7 @@
 ⌨️ Algorithms with Swift.
 ======
 
-EN:
+🌐 EN:
 The complexity of algorithms can be determined in several ways, depending on the specific characteristics of the algorithm and the problem it is solving.
 ------
 
@@ -65,7 +65,7 @@ Swift / Core Concepts:
 
 ======
 
-RU:
+🌐 RU:
 Сложность алгоритмов может определяться несколькими способами, в зависимости от конкретных характеристик алгоритма и задачи, которую он решает.
 
 ------
