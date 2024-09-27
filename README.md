@@ -52,7 +52,7 @@ Examples: Genetic Algorithms, Gradient Descent.
 
 ------
 
-Swift / Core Concepts:
+🦢 Swift / Core Concepts
 ------
 1. Sliding Window: A technique for solving problems involving subarrays or substrings, such as finding the maximum sum or the length of the longest unique substring.
 2. Heap: A data structure for efficiently managing elements with priorities, commonly used in priority queues and shortest path algorithms.
@@ -60,8 +60,6 @@ Swift / Core Concepts:
 4. Dynamic Programming: Solves problems by breaking them into subproblems and using their solutions to optimize the final outcome.
 5. Graph Traversals (BFS/DFS): Algorithms for searching and traversing graphs and trees, used in pathfinding and connectivity checking.
 ------
-
-======
 
 🌐 RU:
 Сложность алгоритмов может определяться несколькими способами, в зависимости от конкретных характеристик алгоритма и задачи, которую он решает.
@@ -116,7 +114,7 @@ Big O используется для сравнения и анализа ра�
 
 ------
 
-Swift / Основные концепции:
+🦢 Swift / Основные концепции
 ------
 
 1. Скользящее окно (Sliding Window): техника для решения задач с подмассивами или подстроками, таких как нахождение максимальной суммы или длины уникальной подстроки.
