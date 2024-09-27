@@ -15,8 +15,6 @@ The complexity of algorithms can be determined in several ways, depending on the
 
 5. Implementation Details: The implementation details of an algorithm, such as the choice of data structures or programming language, can also impact its complexity.
 
-------
-
 - Big O is a mathematical notation used to describe the time complexity of an algorithm, specifically how quickly an algorithm runs as the size of the input data increases.
 It indicates the asymptotic upper bound of the algorithm's running time and allows us to understand how quickly the running time of an algorithm will grow as the size of the input data increases.
 Big O is usually expressed in the form O(f(n)), where f(n) is a function that describes the number of operations the algorithm performs when processing n elements of input data. For example, if an algorithm has a time complexity of O(n), it means that the running time of the algorithm is proportional to the size of the input data.
