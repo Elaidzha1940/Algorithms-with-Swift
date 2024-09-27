@@ -54,11 +54,11 @@ Examples: Genetic Algorithms, Gradient Descent.
 
 🦢 Swift / Core Concepts
 ------
-1. Sliding Window: A technique for solving problems involving subarrays or substrings, such as finding the maximum sum or the length of the longest unique substring.
-2. Heap: A data structure for efficiently managing elements with priorities, commonly used in priority queues and shortest path algorithms.
-3. HashMap/Hash Table: Provides fast data retrieval by key, ideal for lookup and matching problems.
-4. Dynamic Programming: Solves problems by breaking them into subproblems and using their solutions to optimize the final outcome.
-5. Graph Traversals (BFS/DFS): Algorithms for searching and traversing graphs and trees, used in pathfinding and connectivity checking.
+1. Sliding Window - A technique for solving problems involving subarrays or substrings, such as finding the maximum sum or the length of the longest unique substring.
+2. Heap - A data structure for efficiently managing elements with priorities, commonly used in priority queues and shortest path algorithms.
+3. HashMap/Hash Table - Provides fast data retrieval by key, ideal for lookup and matching problems.
+4. Dynamic Programming - Solves problems by breaking them into subproblems and using their solutions to optimize the final outcome.
+5. Graph Traversals (BFS/DFS) - Algorithms for searching and traversing graphs and trees, used in pathfinding and connectivity checking.
 ------
 
 📢 Additional Concepts
@@ -126,11 +126,11 @@ Big O используется для сравнения и анализа ра�
 🦢 Swift / Основные концепции
 ------
 
-1. Скользящее окно (Sliding Window): техника для решения задач с подмассивами или подстроками, таких как нахождение максимальной суммы или длины уникальной подстроки.
-2. Куча (Heap): структура данных для эффективного управления элементами с приоритетами, использующаяся в очередях с приоритетом и алгоритмах поиска кратчайшего пути.
-3. Хэш-таблицы (HashMap/Hash Table): обеспечивают быстрый доступ к данным по ключу, идеальны для задач поиска и сопоставления.
-4. Динамическое программирование (Dynamic Programming): решает задачи путем разбиения их на подзадачи и использования их решений для оптимизации.
-5. Обходы графов (BFS/DFS): алгоритмы для поиска и обхода графов и деревьев, используемые в задачах поиска путей и проверке связности.
+1. Скользящее окно (Sliding Window) - техника для решения задач с подмассивами или подстроками, таких как нахождение максимальной суммы или длины уникальной подстроки.
+2. Куча (Heap) - структура данных для эффективного управления элементами с приоритетами, использующаяся в очередях с приоритетом и алгоритмах поиска кратчайшего пути.
+3. Хэш-таблицы (HashMap/Hash Table) - обеспечивают быстрый доступ к данным по ключу, идеальны для задач поиска и сопоставления.
+4. Динамическое программирование (Dynamic Programming) - решает задачи путем разбиения их на подзадачи и использования их решений для оптимизации.
+5. Обходы графов (BFS/DFS) - алгоритмы для поиска и обхода графов и деревьев, используемые в задачах поиска путей и проверке связности.
 ------
 
 📢 Дополнительные концепции
