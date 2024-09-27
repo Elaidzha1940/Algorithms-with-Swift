@@ -22,7 +22,7 @@ Big O is usually expressed in the form O(f(n)), where f(n) is a function that de
 Big O is used to compare and analyze different algorithms and helps in choosing the most optimal algorithm for solving a particular problem. It also allows us to evaluate how 
 efficiently an algorithm can be optimized when working with large amounts of data.
 
-======
+------
 
 - Сложность алгоритмов может определяться несколькими способами, в зависимости от конкретных характеристик алгоритма и задачи, которую он решает.
 
