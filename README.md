@@ -69,7 +69,7 @@ Examples: Genetic Algorithms, Gradient Descent.
 3. Queue/Stack - Queues and stacks are data structures that manage the order of element processing. Queues operate on a FIFO basis, while stacks follow the LIFO principle.
 4. Two Pointers - An optimization technique for solving problems in arrays and strings, using two pointers to speed up search and processing.
 5. Greedy Problems - Algorithms that make the best choice at each step, aiming to reach a global optimum.
-
+------
 
 🌐 RU:
 Сложность алгоритмов может определяться несколькими способами, в зависимости от конкретных характеристик алгоритма и задачи, которую он решает.
