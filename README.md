@@ -1,9 +1,11 @@
 ⌨️ Algorithms with Swift.
 =====
 
-`````swift
-// "Tree"
 
+- Tree
+-----  
+
+`````swift
 // Node
 class TreeNode<T> {
     var value: T
