@@ -1,8 +1,7 @@
 ⌨️ Algorithms with Swift.
 =====
 
-- Tree
------  
+- Tree  
 
 
 `````swift
