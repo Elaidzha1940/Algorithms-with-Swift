@@ -22,7 +22,6 @@ Big O is used to compare and analyze different algorithms and helps in choosing 
 efficiently an algorithm can be optimized when working with large amounts of data.
 
 ------
-------
 
 ☕️ Types of Algorithms
 ------
