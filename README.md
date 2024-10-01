@@ -4,17 +4,17 @@
 Algorithms
 -----
 
-linked lists
-binary search
-hash table
-queue/stack
-dfs/bfs
-sort
-heap/hash
-two pointers
-sliding window
-tree
-greedy problems
+- linked lists
+- binary search
+- hash table
+- queue/stack
+- dfs/bfs
+- sort
+- heap/hash
+- two pointers
+- sliding window
+- tree
+- greedy problems
 -----
 
 - Tree  
