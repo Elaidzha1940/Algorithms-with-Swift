@@ -68,6 +68,13 @@ productsTree.forEach { node in
 }
 `````
 
+- Queue
+
+`````swift
+struct Queue<T> {
+    
+}
+`````
 
 -----
 
