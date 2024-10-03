@@ -1,7 +1,7 @@
 ⌨️ Algorithms with Swift.
 =====
 
-## Key Algorithms & Data Structures / Основные Алгоритмы и Структуры Данных
+### Key Algorithms & Data Structures / Основные Алгоритмы и Структуры Данных
 
 ### 1. Основные структуры данных
 
