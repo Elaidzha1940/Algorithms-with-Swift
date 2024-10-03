@@ -8,8 +8,8 @@ Key Algorithms & Data Structures / Основные Алгоритмы и Стр
 1. Основные структуры данных
 ```
 - Linked Lists (Связные списки)
-      - Примеры: односвязные и двусвязные списки. Эффективное управление динамической памятью, позволяющее гибко вставлять и удалять узлы в линейной последовательности.
-      - Examples: singly linked and doubly linked lists. Efficient dynamic memory management, allowing flexible node insertion and deletion in a linear sequence.
+      ~ Примеры: односвязные и двусвязные списки. Эффективное управление динамической памятью, позволяющее гибко вставлять и удалять узлы в линейной последовательности.
+      ~ Examples: singly linked and doubly linked lists. Efficient dynamic memory management, allowing flexible node insertion and deletion in a linear sequence.
 
 - Hash Table (Хеш-таблица)
 Структура данных, обеспечивающая быстрый доступ, вставку и удаление с использованием хеш-функций.
