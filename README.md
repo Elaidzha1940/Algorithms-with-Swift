@@ -52,6 +52,33 @@ Solve optimization problems by making locally optimal choices at each step to po
 
 -----
 
+Additional Key Algorithms / Дополнительные Важные Алгоритмы:
+-----
+
+- Divide and Conquer / Разделяй и властвуй
+Пример: QuickSort, MergeSort.
+Принцип заключается в разделении задачи на подзадачи для упрощения решения.
+Example: QuickSort, MergeSort.
+The principle involves breaking a problem into smaller subproblems for simpler solutions.
+
+- Graph Algorithms / Алгоритмы на графах
+Пример: Алгоритмы Дейкстры, Краскала, Прима.
+Решение задач, связанных с кратчайшими путями, минимальным остовным деревом и цикличностью графов.
+Example: Dijkstra's, Kruskal's, Prim's algorithms.
+Solve problems like shortest path, minimum spanning tree, and graph cycles.
+
+- Backtracking / Обратный ход
+Пример: задача о восьми ферзях, комбинаторные задачи.
+Поиск решений путём отката при неверном шаге.
+Example: N-Queens problem, combinatorial problems.
+Solves problems by exploring all possibilities and backtracking when encountering invalid paths.
+
+- Union-Find / Объединение и нахождение
+Пример: работа с непересекающимися множествами в графах.
+Эффективное управление компонентами графов.
+Example: disjoint-set data structure for handling graph components efficiently.
+-----
+
 - Tree  
 `````swift
 
