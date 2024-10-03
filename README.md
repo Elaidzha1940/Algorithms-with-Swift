@@ -30,7 +30,7 @@
      - Core data structure used in sequential processing.
 
 ```swift
-2. Алгоритмы поиска и обхода
+###2. Алгоритмы поиска и обхода
 ```
 - DFS/BFS (Depth-First Search / Breadth-First Search) (Поиск в глубину / Поиск в ширину)
 Основные техники обхода графов и деревьев для поиска и нахождения путей.
