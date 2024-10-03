@@ -5,7 +5,7 @@
 
 ### 1. Основные структуры данных
 
-@ Linked Lists (Связные списки)
+> Linked Lists (Связные списки)
       ~ Примеры: односвязные и двусвязные списки. Эффективное управление динамической памятью, позволяющее гибко вставлять и удалять узлы в линейной последовательности.
       ~ Examples: singly linked and doubly linked lists. Efficient dynamic memory management, allowing flexible node insertion and deletion in a linear sequence.
 
