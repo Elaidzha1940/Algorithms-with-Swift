@@ -29,7 +29,7 @@
      - Основная структура данных для последовательной обработки.
      - Core data structure used in sequential processing.
 
-###2. Алгоритмы поиска и обхода
+### 2. Алгоритмы поиска и обхода
 
 - DFS/BFS (Depth-First Search / Breadth-First Search) (Поиск в глубину / Поиск в ширину)
      - Основные техники обхода графов и деревьев для поиска и нахождения путей.
@@ -39,13 +39,13 @@
      - Быстрый алгоритм поиска в отсортированных коллекциях с логарифмической сложностью.
      - A fast and efficient algorithm to search within sorted collections with logarithmic time complexity.
 
-###3. Алгоритмы сортировки
+### 3. Алгоритмы сортировки
 
 - Sorting Algorithms (Алгоритмы сортировки)
      - Алгоритмы сортировки, такие как QuickSort и MergeSort, с фокусом на временную сложность.
      - Explore various sorting techniques such as QuickSort and MergeSort, focusing on time and space complexity.
 
-###4. Алгоритмы оптимизации
+### 4. Алгоритмы оптимизации
 
 - Dynamic Programming (Динамическое программирование)
      - Принципы оптимизации задач с перекрывающимися подзадачами.
@@ -59,7 +59,7 @@
      - Пример: QuickSort, MergeSort. Принцип заключается в разделении задачи на подзадачи для упрощения решения.
      - Example: QuickSort, MergeSort. The principle involves breaking a problem into smaller subproblems for simpler solutions.
 
-###5. Алгоритмы на графах
+### 5. Алгоритмы на графах
 
 - Graph Algorithms (Алгоритмы работы с графами)
      - Пример: Алгоритмы Дейкстры, Краскала, Прима. Решение задач, связанных с кратчайшими путями, минимальным остовным деревом и цикличностью графов.
@@ -69,7 +69,7 @@
      - Пример: работа с непересекающимися множествами в графах. Эффективное управление компонентами графов.
      - Example: disjoint-set data structure for handling graph components efficiently.
 
-###6. Техники для задач на массивы и строки
+### 6. Техники для задач на массивы и строки
 
 - Two Pointers (Два указателя)
      - Полезная техника для решения задач с массивами и строками, таких как задача о двух суммах.
