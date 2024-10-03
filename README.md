@@ -4,8 +4,8 @@
 Key Algorithms & Data Structures / Основные Алгоритмы и Структуры Данных:
 -----
 
-- Linked Lists / Связные списки
-    Примеры: односвязные и двусвязные списки.
+1. Linked Lists / Связные списки
+ - Примеры: односвязные и двусвязные списки.
 Эффективное управление динамической памятью, позволяющее гибко вставлять и удалять узлы в линейной последовательности.
 Example: singly linked and doubly linked lists.
 Efficient dynamic memory management, allowing flexible node insertion and deletion in a linear sequence.
