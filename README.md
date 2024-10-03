@@ -42,34 +42,35 @@ A fast and efficient algorithm to search within sorted collections with logarith
 - Sorting Algorithms / Алгоритмы сортировки
 Алгоритмы сортировки, такие как QuickSort и MergeSort, с фокусом на временную сложность.
 Explore various sorting techniques such as QuickSort and MergeSort, focusing on time and space complexity.
-Алгоритмы оптимизации:
-Dynamic Programming / Динамическое программирование
+
+4. Алгоритмы оптимизации:
+- Dynamic Programming / Динамическое программирование
 Принципы оптимизации задач с перекрывающимися подзадачами.
 Principles of optimizing problems with overlapping subproblems.
 
-Greedy Algorithms / Жадные алгоритмы
+- Greedy Algorithms / Жадные алгоритмы
 Решение задач оптимизации, где на каждом шаге выбирается локально оптимальное решение.
 Solve optimization problems by making locally optimal choices at each step to potentially find global solutions.
 
-Divide and Conquer / Разделяй и властвуй
+- Divide and Conquer / Разделяй и властвуй
 Пример: QuickSort, MergeSort. Принцип заключается в разделении задачи на подзадачи для упрощения решения.
 Example: QuickSort, MergeSort. The principle involves breaking a problem into smaller subproblems for simpler solutions.
 
-Алгоритмы на графах:
-Graph Algorithms / Алгоритмы работы с графами
+5. Алгоритмы на графах:
+- Graph Algorithms / Алгоритмы работы с графами
 Пример: Алгоритмы Дейкстры, Краскала, Прима. Решение задач, связанных с кратчайшими путями, минимальным остовным деревом и цикличностью графов.
 Example: Dijkstra's, Kruskal's, Prim's algorithms. Solve problems like shortest path, minimum spanning tree, and graph cycles.
 
-Union-Find / Алгоритм объединения и нахождения
+- Union-Find / Алгоритм объединения и нахождения
 Пример: работа с непересекающимися множествами в графах. Эффективное управление компонентами графов.
 Example: disjoint-set data structure for handling graph components efficiently.
 
-Техники для задач на массивы и строки:
-Two Pointers / Два указателя
+6. Техники для задач на массивы и строки:
+- Two Pointers / Два указателя
 Полезная техника для решения задач с массивами и строками, таких как задача о двух суммах.
 A useful technique for solving problems involving arrays and strings, like finding pairs that meet specific conditions.
 
-Sliding Window / Скользящее окно
+- Sliding Window / Скользящее окно
 Алгоритм с динамическим диапазоном для решения задач с подмассивами или подстроками.
 A dynamic range algorithm used for solving problems related to subarrays or substrings efficiently.
 -----
