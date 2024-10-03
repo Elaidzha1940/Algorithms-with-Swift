@@ -4,7 +4,6 @@
 Key Algorithms & Data Structures / Основные Алгоритмы и Структуры Данных
 -----
 
-`````
 1. Основные структуры данных
 - Linked Lists / Связные списки
 Примеры: односвязные и двусвязные списки. Эффективное управление динамической памятью, позволяющее гибко вставлять и удалять узлы в линейной последовательности.
@@ -74,7 +73,6 @@ A useful technique for solving problems involving arrays and strings, like findi
 - Sliding Window / Скользящее окно
 Алгоритм с динамическим диапазоном для решения задач с подмассивами или подстроками.
 A dynamic range algorithm used for solving problems related to subarrays or substrings efficiently.
-`````
 -----
 
 - Tree  
