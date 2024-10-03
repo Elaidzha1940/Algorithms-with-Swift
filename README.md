@@ -10,24 +10,24 @@
      - Examples: singly linked and doubly linked lists. Efficient dynamic memory management, allowing flexible node insertion and deletion in a linear sequence.
 
 - Hash Table (Хеш-таблица)
-Структура данных, обеспечивающая быстрый доступ, вставку и удаление с использованием хеш-функций.
-A data structure providing constant-time complexity for lookups, insertions, and deletions via hash functions.
+     - Структура данных, обеспечивающая быстрый доступ, вставку и удаление с использованием хеш-функций.
+     - A data structure providing constant-time complexity for lookups, insertions, and deletions via hash functions.
 
 - Heap (Куча)
-Структура данных для управления приоритетными очередями и решения задач, таких как нахождение k наибольших элементов.
-A data structure used for efficient priority queue management and finding the k-largest or k-smallest elements.
+     - Структура данных для управления приоритетными очередями и решения задач, таких как нахождение k наибольших элементов.
+     - A data structure used for efficient priority queue management and finding the k-largest or k-smallest elements.
 
 - Tree (Дерево)
-Изучение бинарных деревьев, деревьев поиска и деревьев AVL для организации данных.
-Study binary trees, AVL trees, and binary search trees (BSTs) for data organization and traversal.
+     - Изучение бинарных деревьев, деревьев поиска и деревьев AVL для организации данных.
+     - Study binary trees, AVL trees, and binary search trees (BSTs) for data organization and traversal.
 
 - Stack (Стек)
-Основная структура данных для задач типа "последний пришел, первый ушел".
-Core data structure used for Last-In-First-Out (LIFO) tasks.
+     - Основная структура данных для задач типа "последний пришел, первый ушел".
+     - Core data structure used for Last-In-First-Out (LIFO) tasks.
 
 - Queue (Очередь)
-Основная структура данных для последовательной обработки.
-Core data structure used in sequential processing.
+     - Основная структура данных для последовательной обработки.
+     - Core data structure used in sequential processing.
 
 ```swift
 2. Алгоритмы поиска и обхода
