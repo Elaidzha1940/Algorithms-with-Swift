@@ -138,6 +138,8 @@ productsTree.forEach { node in
 - Queue (Очередь)
 
 `````swift
+import UIKit
+
 // Queue / FIFO
 
 struct Queue<T> {
