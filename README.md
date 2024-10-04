@@ -138,8 +138,27 @@ productsTree.forEach { node in
 - Queue (Очередь)
 
 `````swift
+// Queue / FIFO
+
 struct Queue<T> {
+    private var container: [T] = []
     
+    var size: Int { container.count }
+    var isEmpty: Bool { container.isEmpty }
+    
+    var head: T? { container.first }
+    var tail: T? { container.last }
+    
+    // mutating - add into struct
+    mutating func enqueue(_ t: T) {
+        container.append(t)
+    }
+    
+    @discardableResult // a modifier that allows ignoring a function's return value.
+    mutating func dequeue() -> T? {
+        guard !isEmpty else { return nil }
+        return container.removeFirst()
+    }
 }
 `````
 
