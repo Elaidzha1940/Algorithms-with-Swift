@@ -56,3 +56,27 @@ productsTree.forEach { node in
     print(node.value)
 }
 
+// Queue / FIFO
+
+struct Queue<T> {
+    private var container: [T] = []
+    
+    var size: Int { container.count }
+    var isEmpty: Bool { container.isEmpty }
+    
+    var head: T? { container.first }
+    var tail: t? { container.last }
+    
+    // mutating - add into struct
+    mutating func enqueue(_ t: T) {
+        container.append(t)
+    }
+    
+    mutating func dequeue() -> T {
+        guard !isEmpty else { return nil }
+    }
+}
+    
+
+
+
