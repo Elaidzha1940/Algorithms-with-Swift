@@ -80,7 +80,7 @@
      - A dynamic range algorithm used for solving problems related to subarrays or substrings efficiently.
 -----
 
-### 
+#
 - Tree (Дерево)
 
 `````swift
