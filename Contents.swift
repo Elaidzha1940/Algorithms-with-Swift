@@ -76,7 +76,7 @@ struct Queue<T> {
         guard !isEmpty else { return nil }
     }
 }
-    
+
 
 
 
