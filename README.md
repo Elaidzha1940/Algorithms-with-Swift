@@ -164,6 +164,24 @@ struct Queue<T> {
         return container.removeFirst()
     }
 }
+
+extension Queue {
+    init(_ array: [T]) {
+        self.container = array
+    }
+    
+    mutating func enqueue(_ array: [T]) {
+        self.container += array
+    }
+    
+    mutating func dequeue(number: Int) -> [T] {
+        guard number < container.count else {
+            let array = container
+            container.removeAll()
+            return array
+        }
+    }
+}
 `````
 
 -----
