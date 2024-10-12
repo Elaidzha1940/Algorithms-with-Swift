@@ -137,7 +137,7 @@ productsTree.forEach { node in
 `````
 
 ### 
-- Queue (Очередь)
+- Queue (Очередь) / Dequeue
 
 `````swift
 import UIKit
