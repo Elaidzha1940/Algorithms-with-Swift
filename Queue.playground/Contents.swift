@@ -1,8 +1,8 @@
 import UIKit
 
-// Queue / FIFO
 // Queue / Dequeue
-
+// FIFO
+ 
 struct Queue<T> {
     private var container: [T] = []
     
