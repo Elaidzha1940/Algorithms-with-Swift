@@ -180,8 +180,20 @@ extension Queue {
             container.removeAll()
             return array
         }
+        
+        var array = [T]()
+        for _ in 0..<number {
+            array.append(container.removeFirst())
+        }
+        return array
     }
 }
+
+var queue = Queue<String>()
+queue.enqueue("Eli")
+queue.enqueue("Elijah")
+queue.size
+queue.isEmpty
 `````
 
 -----
