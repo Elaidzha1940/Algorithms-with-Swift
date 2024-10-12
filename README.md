@@ -189,11 +189,24 @@ extension Queue {
     }
 }
 
+// Test
 var queue = Queue<String>()
 queue.enqueue("Eli")
 queue.enqueue("Elijah")
 queue.size
 queue.isEmpty
+queue.head
+queue.tail
+queue.enqueue(["🫠", "🥹", "😇", "😇"])
+queue.size
+queue.head
+queue.tail
+
+let array = queue.dequeue(number: 4)
+print(array)
+queue.size
+queue.head
+queue.tail
 `````
 
 -----
