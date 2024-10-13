@@ -80,7 +80,6 @@
      - A dynamic range algorithm used for solving problems related to subarrays or substrings efficiently.
 -----
 
-
 - Tree (Дерево)
 
 `````swift
@@ -136,8 +135,7 @@ productsTree.forEach { node in
 }
 `````
 
-### 
-- Queue (Очередь) / Dequeue
+- Queue (Очередь)
 
 `````swift
 import UIKit
@@ -211,7 +209,8 @@ queue.tail
 var queue1 = Queue(["Kim", "Mom", "Aunt"])
 queue1.size
 
-// Double queue
+- Dequeue
+
 
 `````
 
