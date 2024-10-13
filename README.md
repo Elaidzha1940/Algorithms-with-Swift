@@ -248,8 +248,16 @@ struct Deque<T> {
     }
 }
 
+var deque = Deque<String>()
+deque.addFirst("Mac")
+deque.addLast("Macbook")
+deque.addFirst("iMac")
+deque.addLast("iPad")
 
-
+deque.removeLast()
+deque.removeLast()
+deque.removeLast()
+deque.removeLast()
 `````
 -----
 
