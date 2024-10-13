@@ -209,7 +209,7 @@ queue.tail
 var queue1 = Queue(["Kim", "Mom", "Aunt"])
 queue1.size
 
-- Dequeue
+- Dequeue (Двойная очередь)
 
 
 `````
