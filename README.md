@@ -140,7 +140,7 @@ productsTree.forEach { node in
 `````swift
 import UIKit
 
-// Queue / Simple data structure - FIFO
+// Queue / Simple data structure - работает по принципу FIFO
 
 struct Queue<T> {
     private var container: [T] = []
@@ -215,7 +215,7 @@ queue1.size
 `````swift
 import UIKit
 
-// Deque / Simple data structure - FIFO
+// Deque / Simple data structure - Cначала крайние и после средняя
 
 
 
