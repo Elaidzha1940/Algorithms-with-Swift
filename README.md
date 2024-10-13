@@ -140,7 +140,7 @@ productsTree.forEach { node in
 `````swift
 import UIKit
 
-// Queue / FIFO
+// Queue / Simple data structure - FIFO
 
 struct Queue<T> {
     private var container: [T] = []
@@ -211,8 +211,12 @@ queue1.size
 
 `````
 
-- Dequeue (Двойная очередь)
+- Deque (Двойная очередь)
 `````swift
+import UIKit
+
+// Deque / Simple data structure - FIFO
+
 
 
 `````
