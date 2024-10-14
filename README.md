@@ -259,6 +259,13 @@ deque.removeLast()
 deque.removeLast()
 deque.removeLast()
 `````
+
+- Linked Lists (Связные списки)
+`````swift
+
+
+`````
+
 -----
 
 
