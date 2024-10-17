@@ -265,8 +265,6 @@ deque.removeLast()
 
 import UIKit
 
-// Linked Lists
-
 // Node / Узел связанного списка 
 class Node<T> {
     var value: T
@@ -277,6 +275,9 @@ class Node<T> {
         self.value = value 
     }
 }
+
+// Linked Lists
+
 
 `````
 -----
