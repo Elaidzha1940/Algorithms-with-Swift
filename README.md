@@ -267,6 +267,7 @@ import UIKit
 
 // Linked Lists
 
+// Node / Узел связанного списка 
 class Node<T> {
     var value: T
     weak var next: Node?
