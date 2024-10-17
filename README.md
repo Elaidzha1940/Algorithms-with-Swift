@@ -86,7 +86,7 @@
 
 import UIKit
 
-// Node
+// Node (Узел)
 class TreeNode<T> {
     var value: T
     var children: [TreeNode] = []
