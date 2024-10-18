@@ -290,10 +290,18 @@ class LinkedList<T> {
 extension LinkedList {
  // Add to end of list / Добавление в конец списка
     func append(_ value: T) {
-        let newNode = Node(value)
+        let newNode = Node(value) // Оборачиваем новое значение в узел
+        
+        if let tail { // Если список не пустой
+            newNode.previous = tail
+            tail.next = newNode
+        } else { // Если список пустой
+            head = newNode
+        }
+        // Теперь хвост новый узел
+        tail = newNode
     }
 }
-
 `````
 -----
 
