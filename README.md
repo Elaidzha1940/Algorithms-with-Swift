@@ -287,9 +287,13 @@ class LinkedList<T> {
     var last: T? { tail?.value }
 }
 
+extension LinkedList {
+ // Add to end of list / Добавление в конец списка
+    func append(_ value: T) {
+        let newNode = Node(value)
+    }
+}
 
 `````
------
-
 -----
 
