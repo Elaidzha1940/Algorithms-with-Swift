@@ -313,7 +313,7 @@ extension LinkedList {
             i -= 1
             currentNode = currentNode?.next
         }
-        return nil 
+        return nil
     }
 
  // Получение значения по индексу
