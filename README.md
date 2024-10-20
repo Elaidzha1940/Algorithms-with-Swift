@@ -304,7 +304,16 @@ extension LinkedList {
 
  // Получение узла по индексу (по порядковому номеру)
     private func nodeBy(_ index: Int) -> Node<T>? {
+        guard index >= 0 else { return nil }
+        var currentNode = head
+        var i = index
         
+        while currentNode != nil {
+            if i == 0 { return currentNode }
+            i -= 1
+            currentNode = currentNode?.next
+        }
+        return nil 
     }
 }
 `````
