@@ -321,6 +321,10 @@ extension LinkedList {
         let node = nodeBy(index)
         return node?.value
     }
+
+// Удаление из связанного списка по индексу
+
+
 }
 `````
 -----
