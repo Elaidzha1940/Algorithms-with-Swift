@@ -322,8 +322,30 @@ extension LinkedList {
         return node?.value
     }
 
-// Удаление из связанного списка по индексу
-
+ // Удаление из связанного списка по индексу / [1 <-> 8 <->3 <-> 5 <-> 4]
+   @discardableResult // a modifier that allows ignoring a function's return value.
+    func remove(at index: Int) -> T? {
+        guard let removedNode = nodeBy(index) else { return nil }
+        let previous = removedNode.previous
+        let next = removedNode.next
+        
+        if let previous {
+            previous.next = next
+        } else {
+            head = next
+        }
+        
+        if let next {
+            next.previous = previous
+        } else {
+            tail = previous
+        }
+        
+        removedNode.next = nil
+        removedNode.previous = nil
+        
+        return removedNode.value
+    }
 
 }
 `````
