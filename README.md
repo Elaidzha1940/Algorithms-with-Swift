@@ -315,6 +315,12 @@ extension LinkedList {
         }
         return nil 
     }
+
+ // Получение значения по индексу
+    func value(at index: Int) -> T? {
+        let node = nodeBy(index)
+        return node?.value
+    }
 }
 `````
 -----
