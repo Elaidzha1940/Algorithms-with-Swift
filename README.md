@@ -301,7 +301,13 @@ extension LinkedList {
         // Теперь хвост новый узел
         tail = newNode
     }
+
+ // Получение узла по индексу (по порядковому номеру)
+    private func nodeBy(_ index: Int) -> Node<T>? {
+        
+    }
 }
 `````
 -----
------
+
+
