@@ -37,4 +37,44 @@ extension LinkedList {
         // Теперь хвост новый узел
         tail = newNode
     }
+    
+    // Получение узла по индексу (по порядковому номеру)
+    private func nodeBy(_ index: Int) -> Node<T>? {
+        guard index >= 0 else { return nil }
+        var currentNode = head
+        var i = index
+        
+        while currentNode != nil {
+            if i == 0 { return currentNode }
+            i -= 1
+            currentNode = currentNode?.next
+        }
+        return nil
+    }
+    
+    // Получение значения по индексу
+    func value(at index: Int) -> T? {
+        let node = nodeBy(index)
+        return node?.value
+    }
+    
+    // Удаление из связанного списка по индексу
+    @discardableResult // a modifier that allows ignoring a function's return value.
+    func remove(at index: Int) -> T? {
+        guard let removedNode = nodeBy(index) else { return nil }
+        let previous = removedNode.previous
+        let next = removedNode.next
+        
+        if let previous {
+            previous.next = next
+        } else {
+            head = next
+        }
+        
+        if let next {
+            next.previous = previous
+        } else {
+            tail = previous
+        }
+    }
 }
