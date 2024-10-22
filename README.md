@@ -212,6 +212,7 @@ queue1.size
 `````
 
 - Deque (Двойная очередь)
+
 `````swift
 import UIKit
 
@@ -261,23 +262,8 @@ deque.removeLast()
 `````
 
 - Linked Lists (Связные списки)
+
 `````swift
-
-import UIKit
-
-// Node / Узел связанного списка
-
-class Node<T> {
-    var value: T
-    weak var next: Node?
-    weak var previous: Node?
-    
-    init(_ value: T) {
-        self.value = value 
-    }
-}
-
-// Linked Lists / Связанный список
 class LinkedList<T> {
     private var head: Node<T>?
     private var tail: Node<T>?
@@ -288,7 +274,7 @@ class LinkedList<T> {
 }
 
 extension LinkedList {
- // Add to end of list / Добавление в конец списка
+    // Add to end of list / Добавление в конец списка
     func append(_ value: T) {
         let newNode = Node(value) // Оборачиваем новое значение в узел
         
@@ -301,8 +287,8 @@ extension LinkedList {
         // Теперь хвост новый узел
         tail = newNode
     }
-
- // Получение узла по индексу (по порядковому номеру)
+    
+    // Получение узла по индексу (по порядковому номеру)
     private func nodeBy(_ index: Int) -> Node<T>? {
         guard index >= 0 else { return nil }
         var currentNode = head
@@ -315,15 +301,15 @@ extension LinkedList {
         }
         return nil
     }
-
- // Получение значения по индексу
+    
+    // Получение значения по индексу
     func value(at index: Int) -> T? {
         let node = nodeBy(index)
         return node?.value
     }
-
- // Удаление из связанного списка по индексу / [1 <-> 8 <->3 <-> 5 <-> 4]
-   @discardableResult // a modifier that allows ignoring a function's return value.
+    
+    // Удаление из связанного списка по индексу / [1 <-> 8 <->3 <-> 5 <-> 4]
+    @discardableResult // a modifier that allows ignoring a function's return value.
     func remove(at index: Int) -> T? {
         guard let removedNode = nodeBy(index) else { return nil }
         let previous = removedNode.previous
@@ -346,19 +332,23 @@ extension LinkedList {
         
         return removedNode.value
     }
+}
 
- extension LinkedList: CustomStringConvertible {
-        var description: String {
-            var text = "["
-            var currentNode = head
-            while currentNode != nil {
-                text += "\(currentNode?.value)"
-                currentNode = currentNode?.next
-                if currentNode != nil { text += " <-> " }
-            }
+// [1 <-> 8 <->3 <-> 5 <-> 4]
+extension LinkedList: CustomStringConvertible {
+    var description: String {
+        var text = "["
+        var currentNode = head
+        while currentNode != nil {
+            text += "\(currentNode!.value)"
+            currentNode = currentNode?.next
+            if currentNode != nil { text += " <-> " }
         }
+        text += "]"
+        return text
+    }
 }
 `````
------
+
 -----
 
