@@ -376,6 +376,10 @@ fishes.append("sea bass")
 fishes.append("cod")
 print(fishes)
 fishes.last
+
+fishes.value(at: 3)
+fishes.remove(at: 1)
+print(fishes)
 `````
 
 -----
