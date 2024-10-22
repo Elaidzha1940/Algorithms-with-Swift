@@ -1,10 +1,9 @@
 import UIKit
 
-
 // Node / Узел связанного списка
 class Node<T> {
     var value: T
-    weak var next: Node?
+    var next: Node?
     weak var previous: Node?
     
     init(_ value: T) {
@@ -98,3 +97,20 @@ extension LinkedList: CustomStringConvertible {
         return text
     }
 }
+
+// Test
+var fishes = LinkedList<String>()
+fishes.first
+fishes.last
+fishes.isEmpty
+print(fishes)
+fishes.append("trout")
+print(fishes)
+fishes.append("salmon")
+fishes.append("tuna")
+fishes.append("sea bass")
+fishes.append("cod")
+print(fishes)
+fishes.last
+
+
