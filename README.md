@@ -347,6 +347,16 @@ extension LinkedList {
         return removedNode.value
     }
 
+ extension LinkedList: CustomStringConvertible {
+        var description: String {
+            var text = "["
+            var currentNode = head
+            while currentNode != nil {
+                text += "\(currentNode?.value)"
+                currentNode = currentNode?.next
+                if currentNode != nil { text += " <-> " }
+            }
+        }
 }
 `````
 -----
