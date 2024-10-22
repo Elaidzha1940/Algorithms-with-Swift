@@ -8,7 +8,7 @@ class Node<T> {
     weak var previous: Node?
     
     init(_ value: T) {
-        self.value = value 
+        self.value = value
     }
 }
 
@@ -24,7 +24,7 @@ class LinkedList<T> {
 }
 
 extension LinkedList {
- // Add to end of list / Добавление в конец списка
+    // Add to end of list / Добавление в конец списка
     func append(_ value: T) {
         let newNode = Node(value) // Оборачиваем новое значение в узел
         
@@ -82,6 +82,19 @@ extension LinkedList {
         
         return removedNode.value
     }
-    
-    // [1 <-> 8 <->3 <-> 5 <-> 4]
+}
+
+// [1 <-> 8 <->3 <-> 5 <-> 4]
+extension LinkedList: CustomStringConvertible {
+    var description: String {
+        var text = "["
+        var currentNode = head
+        while currentNode != nil {
+            text += "\(currentNode!.value)"
+            currentNode = currentNode?.next
+            if currentNode != nil { text += " <-> " }
+        }
+        text += "]"
+        return text
+    }
 }
