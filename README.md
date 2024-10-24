@@ -382,5 +382,13 @@ fishes.remove(at: 1)
 print(fishes)
 `````
 
+- Stack (Стек)
+
+`````swift
+
+
+`````
 -----
+
+
 
