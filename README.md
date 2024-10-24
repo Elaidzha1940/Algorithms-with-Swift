@@ -392,8 +392,32 @@ struct Stack<T> {
     var size: Int { container.count } // Size
     var isEmpty: Bool { container.isEmpty } // Empty
     var top: T? { container.last } // Top Element
+    
+    mutating func push(_ value : T) {
+        self.container.append(value)
+    }
+    
+    mutating func pop() -> T? {
+        guard !self.isEmpty else {
+            return nil
+        }
+        return self.container.removeLast()
+    }
 }
 
+// Test
+var stack = Stack<String>()
+stack.pop()
+
+stack.push("Autmn")
+stack.push("Winter")
+stack.push("Spring")
+stack.push("Summer")
+
+stack.pop()
+stack.isEmpty
+stack.top
+stack.size
 
 `````
 -----
