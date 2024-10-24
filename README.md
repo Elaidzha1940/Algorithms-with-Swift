@@ -405,6 +405,16 @@ struct Stack<T> {
     }
 }
 
+extension Stack {
+    mutating func push(_ array: [T]) {
+        self.container += array
+    }
+    
+    mutating func removeAll() {
+        container.removeAll()
+    }
+}
+
 // Test
 var stack = Stack<String>()
 stack.pop()
