@@ -94,8 +94,15 @@ Big O Notation
      - n is the number of elements the algorithm processes.
  
 `````swift
+import UIKit
 
+func getValueFor(index: Int, in array: [Int]) -> Int? {
+    guard index < array.count else { return nil }
+    
+    return array[index]
+}
 
+getValueFor(index: 2, in: [1,2,3,4,5])
 
 `````
 
