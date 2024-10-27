@@ -87,6 +87,12 @@ Big O Notation
      - O(n) обозначает, что количество операций линейно зависит от количества элементов данных.
      - O - количество операций, которое потребуется для выполнения алгоритма.
      - n — количество элементов, с которыми работает алгоритм.
+ 
+- Big O Notation is a way to measure how the number of operations performed by the processor depends on the number of data elements.
+     - O(n) means that the number of operations grows linearly with the number of data elements.
+     - O represents the total number of operations required to complete the algorithm.
+     - n is the number of elements the algorithm processes.
+ 
 `````swift
 
 
