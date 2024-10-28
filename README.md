@@ -112,6 +112,19 @@ func sum(array: [Int]) -> Int {
     return sum
 }
 
+// O(2*n)
+func sum(array: [Int]) -> (Int, Int) {
+    var sum = 0
+    var mult = 1
+    array.forEach { sum += $0 }
+    
+    array.forEach { num in
+        mult *= num
+    }
+    
+    return (sum, mult)
+}
+
 `````
 
 -----
