@@ -96,6 +96,7 @@ Big O Notation
 `````swift
 import UIKit
 
+// O(1) - Единичная (константная) сложность
 func getValueFor(index: Int, in array: [Int]) -> Int? {
     guard index < array.count else { return nil }
     
