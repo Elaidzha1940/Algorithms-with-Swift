@@ -105,6 +105,13 @@ func getValueFor(index: Int, in array: [Int]) -> Int? {
 
 getValueFor(index: 2, in: [1,2,3,4,5])
 
+// O(n) - Линейная сложность
+func sum(array: [Int]) -> Int {
+    var sum = 0
+    array.forEach { sum += $0 }
+    return sum
+}
+
 `````
 
 -----
