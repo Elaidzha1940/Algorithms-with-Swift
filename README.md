@@ -321,6 +321,7 @@ deque.removeLast()
 deque.removeLast()
 `````
 
+`````swift
 - Linked Lists (Связные списки)
 
 // Algorithms                 ArrayList     LinkedList 
@@ -332,7 +333,6 @@ deque.removeLast()
 // insert at back             O(1)          O(1)
 // insert after the item      O(n)          O(1)
 
-`````swift
 import UIKit
 
 // Node / Узел связанного списка
