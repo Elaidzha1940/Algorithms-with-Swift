@@ -324,6 +324,9 @@ deque.removeLast()
 `````swift
 - Linked Lists (Связные списки)
 
+O(n) — время выполнения увеличивается вместе с количеством данных / execution time grows with the amount of data.
+O(1) — время выполнения остаётся одинаковым, сколько бы данных ни было / execution time stays the same, regardless of data size.
+
 // Algorithms                 ArrayList     LinkedList 
 
 // seek front                 O(1)          O(1)
