@@ -125,7 +125,7 @@ func sum(array: [Int]) -> (Int, Int) {
     return (sum, mult)
 }
 
-// O(2^n) - в квадрате
+// O(2^n) / в квадрате - Степенная сложность 
 func multiTab(array: [Int]) {
     for num1 in array {
         for num2 in array {
