@@ -125,6 +125,14 @@ func sum(array: [Int]) -> (Int, Int) {
     return (sum, mult)
 }
 
+// O(n)
+func multiTab(array: [Int]) {
+    for num1 in array {
+        for num2 in array {
+            print("\(num1) * \(num2) = \(num1 * num2)")
+        }
+    }
+}
 `````
 
 -----
