@@ -323,6 +323,15 @@ deque.removeLast()
 
 - Linked Lists (Связные списки)
 
+// Algorithms                 ArrayList     LinkedList 
+
+// seek front                 O(1)          O(1)
+// seek back                  O(1)          O(1)
+// seek to index              O(1)          O(n)
+// insert at front            O(n)          O(1)
+// insert at back             O(1)          O(1)
+// insert after the item      O(n)          O(1)
+
 `````swift
 import UIKit
 
