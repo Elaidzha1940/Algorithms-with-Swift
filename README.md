@@ -133,6 +133,9 @@ func multiTab(array: [Int]) {
         }
     }
 }
+
+multiTab(array: [1,2,3,4,5])
+
 `````
 
 -----
